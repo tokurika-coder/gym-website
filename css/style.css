@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../gym.jpg);
+}
+.navigation{
+    display: flex;
+    background-color: black;
+}
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    height: 40px;
+    width: 50px;
+    margin-left:3px;
+    margin-top: 3px;
+}
+.navsection{
+    /* border: 2px solid green; */
+    align-items: center;
+    margin: auto;
+    margin-top: 8px;
+}
+.navigation ul li{
+    padding: 12px;
+    background-color: black;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    border:2px solid white;
+    border-radius: 7px;
+    padding: 8px;
+}
+.navigation ul li a:hover{
+    color:grey;
+}
+#button{
+    /* border: 2px solid yellow; */
+    margin-top: 6px;
+    margin-right: 14px;
+    height: 37px;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.btn{
+    height: 35px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: black;
+}
+#button button a{
+    color: white;
+    text-decoration: none;
+}
+#button button a:hover{
+    color: grey
+}
+#form{
+    border: 2px solid white;
+    height: 260px;
+    width: 313px;
+    margin: auto;
+    margin-top: 96px;
+    margin-left: 550px;
+}
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#form h1{
+    font-size: 21px;
+    color: white;
+    padding-top: 50px;
+    margin: 10px;
+    text-align: center;
+}
+.box input{
+    width: 250px;
+    padding: 4px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.last input{
+    width: 262px;
+    padding: 4px;
+    margin: 2px;
+    margin-left: 26px;
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+}   
